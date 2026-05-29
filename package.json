@@ -12,10 +12,16 @@
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "customEditors": [
       {
-        "command": "simple-bmp.helloWorld",
-        "title": "Hello World"
+        "viewType": "simple-bmp.editor",
+        "displayName": "BMP Sprite Editor",
+        "selector": [
+          {
+            "filenamePattern": "*.bmp"
+          }
+        ],
+        "priority": "default"
       }
     ]
   },
