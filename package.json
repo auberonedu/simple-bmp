@@ -3,6 +3,7 @@
   "displayName": "Simple BMP",
   "description": "A simple indexed bitmap editor",
   "license": "MIT",
+  "publisher": "auberonedu",
   "repository": "https://github.com/auberonedu/simple-bmp",
   "version": "0.0.1",
   "engines": {
