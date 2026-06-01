@@ -2,6 +2,8 @@
   "name": "simple-bmp",
   "displayName": "Simple BMP",
   "description": "A simple indexed bitmap editor",
+  "license": "MIT",
+  "repository": "https://github.com/auberonedu/simple-bmp",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.120.0"
